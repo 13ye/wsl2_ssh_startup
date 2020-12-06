@@ -1,0 +1,4 @@
+#!/bin/bash
+# this file should be put under /etc/init.wsl
+
+sh ~/start_ssh.sh
