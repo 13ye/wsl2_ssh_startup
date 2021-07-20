@@ -2,10 +2,8 @@
 server_addr = 127.0.0.1
 server_port = 7000
 
-
 [ssh_ubuntu20]
-pe = tcp
+type = tcp
 local_ip = ip_temp
 local_port = 22222
-remote_port = 62222
-
+remote_port = 22222
