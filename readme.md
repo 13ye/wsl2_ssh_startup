@@ -1,8 +1,9 @@
 # Preparing
 1. windows prepare frp dir, wsl modify ssh port in '/etc/ssh/sshd_config'
-2. edit frpc.ini_temp for wsl newer ports
-3. put frpc.ini_temp under wsl /root/
-4. windows set bat as startup programs
+2. wsl prepare executable /etc/init.wsl
+3. edit frpc.ini_temp for wsl newer ports
+4. put frpc.ini_temp under wsl /root/
+5. windows set bat as startup programs
 
 # Running
 1. windows startup
