@@ -1,9 +1,17 @@
 [common]
 server_addr = 127.0.0.1
 server_port = 7000
+authentication_method = token
+token = password2bChange
 
 [ssh_ubuntu20]
 type = tcp
 local_ip = ip_temp
 local_port = 22222
 remote_port = 22222
+
+[RDwin]
+type = tcp
+local_ip = 127.0.0.1
+local_port = 33389
+remote_port = 33333
